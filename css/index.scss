@@ -296,6 +296,74 @@ nav {
     }
 }
 
+.sect7 {
+    padding:4vh 0;
+    .information-area7 {
+        h2 {
+            text-align: center;
+        }
+        .series {
+            padding:4vh 3vw;
+            h2 {
+                font-size:1.25em;
+                padding-left:20px;
+                padding-bottom:5px;
+                border-left:10px solid $primary-dark-gray;
+                border-bottom:1px solid $primary-dark-gray;
+                text-align: left;
+            }
+            h3 {
+                font-size:0.9em;
+                padding-left:30px;
+            }
+            h5 {
+                font-size:0.8em;
+                padding:10px 20px 3px;
+                line-height:2em;
+                // text-decoration-line: underline;
+            }
+            .item {
+                font-size:0.8em;
+                position:relative;
+                &:hover {
+                    cursor: pointer;
+                    .image {
+                        opacity: 0.3;
+                    }
+                    .mid-text {
+                        opacity: 1;
+                    }
+                }
+            }
+            .item-image {
+                opacity: 1;
+                display: block;
+                transition: .5s ease;
+                visibility: hidden;
+            }
+            .mid-text {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top:0;
+                bottom:0;
+                left:0%;
+                right:0;
+                // transform: translate(-50%, -50%);
+                // -ms-transform: translate(-50%, -50%);
+                text-align: center;
+                background:rgba(54, 54, 54, 0.6);
+                color: white;
+                padding:10px;
+                font-size:0.9em;
+                a {
+                    color:white;
+                }
+            }
+        }
+    }
+}
+
 .video-container {
     overflow: hidden;
     position: relative;
@@ -430,6 +498,15 @@ nav {
                 img {
                     box-shadow: 1px 3px 10px $primary-dark-gray;
                 }
+            }
+        }
+    }
+
+    .sect7 {
+        .item {
+            padding-bottom:4vh;
+            p {
+                font-size: 0.8em;
             }
         }
     }
