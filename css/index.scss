@@ -325,7 +325,7 @@ nav {
             .item {
                 font-size:0.8em;
                 position:relative;
-                &:hover {
+                &:hover, &:active {
                     cursor: pointer;
                     .image {
                         opacity: 0.3;

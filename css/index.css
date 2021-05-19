@@ -231,11 +231,11 @@ nav img {
     .sect7 .information-area7 .series .item {
       font-size: 0.8em;
       position: relative; }
-      .sect7 .information-area7 .series .item:hover {
+      .sect7 .information-area7 .series .item:hover, .sect7 .information-area7 .series .item:active {
         cursor: pointer; }
-        .sect7 .information-area7 .series .item:hover .image {
+        .sect7 .information-area7 .series .item:hover .image, .sect7 .information-area7 .series .item:active .image {
           opacity: 0.3; }
-        .sect7 .information-area7 .series .item:hover .mid-text {
+        .sect7 .information-area7 .series .item:hover .mid-text, .sect7 .information-area7 .series .item:active .mid-text {
           opacity: 1; }
     .sect7 .information-area7 .series .item-image {
       opacity: 1;
