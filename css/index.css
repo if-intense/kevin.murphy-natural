@@ -8,20 +8,23 @@ nav img {
   width: 200px; }
 
 .banner {
-  padding: 180px 0;
-  background: url(../img/bg-top.png) no-repeat;
+  padding-top: 40%;
+  background: url(../img/hair-dressing-model/001_RES_CATHY-06.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 0; }
+  background-position: center top;
+  margin-bottom: 0;
+  position: relative; }
   .banner h1 {
     margin: 0;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     font-size: 32px;
-    font-weight: bold;
-    text-align: center; }
+    font-weight: bold; }
   .banner h5 {
-    text-align: right; }
+    text-align: left; }
+  .banner .sub-logo-area {
+    position: absolute;
+    top: 5%; }
 
 .to-other-brand {
   background: #ffffff;
@@ -30,23 +33,64 @@ nav img {
 
 .sect {
   padding: 4vh 0;
-  background: #a5a8a8;
-  background: linear-gradient(135deg, #a5a8a8 0%, #e5e8e7 100%); }
+  background: url(../img/hair-dressing-model/002-australia.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; }
   .sect .container .part1 {
     margin: 4vh auto; }
     .sect .container .part1 h3 {
-      color: white;
-      font-weight: bold; }
+      font-family: 'Times New Roman', Times, serif; }
   .sect .container .part2 {
     margin: 4vh auto; }
-    .sect .container .part2 p {
-      padding: 0 3vw;
-      margin-top: 3vh; }
-    .sect .container .part2 .text-left {
-      text-align: left; }
+    .sect .container .part2 .text-center-inner {
+      display: flex;
+      align-items: center; }
+      .sect .container .part2 .text-center-inner p {
+        padding: 0 3vw;
+        margin-top: 3vh; }
+      .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8); }
+        .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+          font-size: 1.25em;
+          margin: 3vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h4 span, .sect .container .part2 .text-center-inner .text-right h4 span {
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+          font-size: 1.25em;
+          margin: 2vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h5 span, .sect .container .part2 .text-center-inner .text-right h5 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+          font-size: 1.25em;
+          margin: 2vh auto;
+          line-height: 1.5em;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h6 span, .sect .container .part2 .text-center-inner .text-right h6 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; }
+      .sect .container .part2 .text-center-inner .text-left {
+        border-top: 3px solid #916C85;
+        border-left: 3px solid #916C85; }
+      .sect .container .part2 .text-center-inner .text-right {
+        border-right: 3px solid #916C85;
+        border-bottom: 3px solid #916C85; }
 
 .sect1 {
-  background: url(../img/bg-1.png) no-repeat;
+  background: url(../img/prod/img006-e.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 250px 0; }
@@ -57,9 +101,8 @@ nav img {
       font-size: 2em;
       color: #ffffff;
       text-shadow: 1px 1px 3px #414141; }
-    .sect1 .information-center h1 {
-      color: #ffffff;
-      font-size: 3em; }
+    .sect1 .information-center h1 img {
+      width: 50%; }
     .sect1 .information-center h5 {
       color: #ffffff;
       font-size: 1.5em;
@@ -134,7 +177,7 @@ nav img {
       margin: 3vh 0; }
     .sect3 .information-area3 p {
       line-height: 2em;
-      font-size: 1.25em; }
+      font-size: 1em; }
     .sect3 .information-area3 h4 {
       margin: 3vh 0;
       font-size: 1.5em;
@@ -169,6 +212,12 @@ nav img {
       font-size: 0.6em; }
     .sect4 .list .buttons h4 a:hover {
       cursor: pointer; }
+  .sect4 .list .buttons p.product-category {
+    font-weight: 0.9em;
+    padding-left: 20px;
+    border-left: 5px solid #916C85;
+    border-bottom: 1px solid #916C85;
+    padding-bottom: 5px; }
   .sect4 .list .product {
     border: 1px solid #d9DDCC;
     border-radius: 10px;
@@ -201,7 +250,7 @@ nav img {
     margin: 0 10px; }
 
 .sect6 {
-  background: url(../img/bg-6.png) no-repeat;
+  background: url(../img/prod/img005-LOVE.AFFAIR_YOUNG.AGAIN.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 4vh 0; }
@@ -209,7 +258,8 @@ nav img {
     padding: 3vh 0; }
     .sect6 .main-component h3 {
       text-align: center;
-      color: #ffffff;
+      color: #414141;
+      text-shadow: 2px 3px 3px #ffffff;
       font-weight: bold; }
     .sect6 .main-component .component {
       margin: 2vh auto;
@@ -249,6 +299,8 @@ nav img {
       font-size: 0.8em;
       padding: 10px 20px 3px;
       line-height: 2em; }
+    .sect7 .information-area7 .series h6.card-title {
+      font-weight: bold; }
     .sect7 .information-area7 .series .item {
       font-size: 0.8em;
       position: relative; }
@@ -375,9 +427,83 @@ nav img {
 .fadeIn-right {
   left: 80%; }
 
+@media (max-width: 992px) {
+  .sect .container {
+    max-width: 900px; }
+    .sect .container .part2 {
+      margin: 4vh auto; }
+      .sect .container .part2 .text-center-inner {
+        display: flex;
+        align-items: center; }
+        .sect .container .part2 .text-center-inner p {
+          padding: 0 3vw;
+          margin-top: 3vh; }
+        .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+          text-align: center;
+          background: rgba(255, 255, 255, 0.8); }
+          .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+            font-size: 1.0em; }
+          .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+            font-size: 1.0em; }
+          .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+            font-size: 1.0em; }
+        .sect .container .part2 .text-center-inner .text-left {
+          border-top: 3px solid #916C85;
+          border-left: 3px solid #916C85; }
+        .sect .container .part2 .text-center-inner .text-right {
+          border-right: 3px solid #916C85;
+          border-bottom: 3px solid #916C85; }
+
+  .sect6 .container {
+    max-width: 992px; }
+  .sect6 .main-component .component h4 {
+    font-size: 1em; }
+  .sect6 .main-component .component h5 {
+    font-size: 0.8em; }
+  .sect6 .main-component .component h6 {
+    line-height: 1.5em; } }
 @media (max-width: 576px) {
   .br_on {
     display: block; }
+
+  .sect {
+    padding: 4vh 0; }
+    .sect .container .part1 {
+      margin: 4vh auto; }
+      .sect .container .part1 h3 {
+        font-family: 'Times New Roman', Times, serif; }
+    .sect .container .part2 {
+      margin: 4vh auto; }
+      .sect .container .part2 .text-center-inner {
+        display: flex;
+        align-items: center; }
+        .sect .container .part2 .text-center-inner p {
+          padding: 0 3vw;
+          margin-top: 3vh; }
+        .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+          text-align: center;
+          background: rgba(255, 255, 255, 0.8);
+          margin: 2vh auto; }
+          .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+            font-size: 1em;
+            margin: 2vh auto;
+            font-weight: normal; }
+            .sect .container .part2 .text-center-inner .text-left h4 span, .sect .container .part2 .text-center-inner .text-right h4 span {
+              font-size: 1.25em;
+              padding: 0 5px;
+              margin: 0 5px;
+              background: linear-gradient(transparent 60%, #916C85 0%);
+              text-shadow: 1px 1px 3px #ffffff; }
+          .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+            font-size: 1em; }
+          .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+            font-size: 1em; }
+        .sect .container .part2 .text-center-inner .text-left {
+          border-top: none;
+          border-left: none; }
+        .sect .container .part2 .text-center-inner .text-right {
+          border-right: none;
+          border-bottom: none; }
 
   .sect1 .information-center h3 {
     font-size: 1em; }
@@ -448,6 +574,52 @@ nav img {
   .sect7 .item {
     padding-bottom: 4vh; }
     .sect7 .item p {
+      font-size: 0.8em; }
+  .sect7 .information-area7 .series .card .card-body {
+    padding: 0; }
+    .sect7 .information-area7 .series .card .card-body p {
       font-size: 0.8em; } }
+@media (max-width: 375px) {
+  .sect .container .part2 {
+    margin: 4vh auto; }
+    .sect .container .part2 .text-center-inner {
+      display: flex;
+      align-items: center; }
+      .sect .container .part2 .text-center-inner p {
+        padding: 0 3vw;
+        margin-top: 3vh; }
+      .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+        text-align: center; }
+        .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+          font-size: 1em;
+          margin: 3vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h4 span, .sect .container .part2 .text-center-inner .text-right h4 span {
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+          font-size: 1em;
+          margin: 2vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h5 span, .sect .container .part2 .text-center-inner .text-right h5 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+          font-size: 1em;
+          margin: 2vh auto;
+          line-height: 1.5em;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h6 span, .sect .container .part2 .text-center-inner .text-right h6 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; } }
 
 /*# sourceMappingURL=index.css.map */
