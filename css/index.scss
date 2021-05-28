@@ -10,6 +10,10 @@ body {
     background:aquamarine;
 }
 
+.br_on {
+    display:none;
+}
+
 nav {
     img {
         width:200px;
@@ -49,9 +53,9 @@ nav {
 
 .sect {
     padding:4vh 0;
-    // background: rgb(165,168,168);
-    // background: linear-gradient(135deg, rgba(165,168,168,1) 0%, rgba(229,232,231,1) 100%);
-    background:url(../img/hair-dressing-model/002-australia.jpg) no-repeat;
+    background: rgb(215,163,171);
+    background: linear-gradient(135deg, rgba(215,163,171,1) 0%, rgba(242,212,215,1) 100%);
+    // background:url(../img/hair-dressing-model/002-australia.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     .container {
@@ -125,6 +129,99 @@ nav {
         }
     }
 }
+
+
+.sect8 {
+    background: rgb(184,221,225);
+    background: linear-gradient(135deg, rgba(184,221,225,1) 0%, rgba(255,255,255,1) 100%);
+    .container-fluid {
+        padding-top: 8vh;
+        padding-bottom: 4vh;
+        .intro-text {
+            h5 {
+                font-size:1.5em;
+                line-height:2em;
+                font-family:'Noto Serif JP', serif;
+            }
+        }
+        .intro-logo {
+            p {
+                font-size:1.5em;
+                font-weight:bold;
+            }
+        }
+        .description {
+            font-family:'Noto Serif JP', serif;
+            line-height:2em;
+            .youtube-video {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                &::after {
+                    padding-top: 56.25%;
+                    display: block;
+                    content: '';
+                }
+                iframe {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            p {
+                span {
+                    font-size:1.25em;
+                    font-weight:bold;
+                    i {
+                        font-size:2em;
+                    }
+                }
+                strong {
+                    text-decoration: underline;
+                    font: size 1.25em;
+                    padding:0 5px;
+                }
+            }
+        }
+        .outro-text {
+            font-family:'Noto Serif JP', serif;
+            p {
+                line-height:2em;
+                font-size:1em;
+                span {
+                    font-size:1.25em;
+                    font-weight:bold;
+                }
+            }
+            h5 {
+
+             span {
+               background:rgb(255,223,180);
+               background: linear-gradient(135deg, rgba(255,223,180,1) 0%, rgba(255,255,255,1) 100%);
+               padding:10px 20px;
+               box-shadow:1px 3px 6px $primary-dark-gray;
+             }
+            }
+            h3 {
+              background:$primary-dark-gray;
+              color:$primary-white;
+              padding:10px 0;
+            }
+            h5 {
+                font-size:1.25em;
+
+            }
+            .magazine {
+              display: flex;
+              align-items:center;
+            }
+
+        }
+    }
+}
+
 
 .sect1 {
     background:url(../img/prod/img006-e.jpg) no-repeat;
@@ -255,6 +352,10 @@ nav {
             font-size:1.5em;
             font-weight:bold;
             text-decoration: underline;
+        }
+        .cut-images {
+            object-fit: cover;
+            // height:10vh;
         }
     }
 }
@@ -723,6 +824,49 @@ nav {
         }
     }
 
+    .sect8 {
+       
+        .container {
+            padding-top: 8vh;
+            padding-bottom: 4vh;
+            .intro-text {
+                h5 {
+                    font-size:1em;
+                }
+            }
+            .intro-logo {
+                p {
+                    font-size:1em;
+                    font-weight:bold;
+                }
+            }
+            .description {
+                p {
+                    font-size:0.9em;
+                }
+            }
+            .outro-text {
+                font-family:'Noto Serif JP', serif;
+                h3 {
+                    font-size: 1.25em;
+                    font-weight: bold;
+                }
+                p {
+                    line-height:2em;
+                    font-size:1em;
+                    span {
+                        font-size:1.25em;
+                        font-weight:bold;
+                    }
+                }
+                h5 {
+                    font-size:1.25em;
+                    
+                }
+            }
+        }
+    }
+
     
 
     .sect1 {
@@ -858,7 +1002,9 @@ nav {
                 }
             }
         }
-    }  
+    } 
+    
+    
      
 }
 

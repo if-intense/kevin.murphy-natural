@@ -4,6 +4,9 @@
 body {
   background: aquamarine; }
 
+.br_on {
+  display: none; }
+
 nav img {
   width: 200px; }
 
@@ -33,7 +36,8 @@ nav img {
 
 .sect {
   padding: 4vh 0;
-  background: url(../img/hair-dressing-model/002-australia.jpg) no-repeat;
+  background: #d7a3ab;
+  background: linear-gradient(135deg, #d7a3ab 0%, #f2d4d7 100%);
   background-size: cover;
   background-position: center; }
   .sect .container .part1 {
@@ -88,6 +92,68 @@ nav img {
       .sect .container .part2 .text-center-inner .text-right {
         border-right: 3px solid #916C85;
         border-bottom: 3px solid #916C85; }
+
+.sect8 {
+  background: #b8dde1;
+  background: linear-gradient(135deg, #b8dde1 0%, white 100%); }
+  .sect8 .container-fluid {
+    padding-top: 8vh;
+    padding-bottom: 4vh; }
+    .sect8 .container-fluid .intro-text h5 {
+      font-size: 1.5em;
+      line-height: 2em;
+      font-family: 'Noto Serif JP', serif; }
+    .sect8 .container-fluid .intro-logo p {
+      font-size: 1.5em;
+      font-weight: bold; }
+    .sect8 .container-fluid .description {
+      font-family: 'Noto Serif JP', serif;
+      line-height: 2em; }
+      .sect8 .container-fluid .description .youtube-video {
+        overflow: hidden;
+        position: relative;
+        width: 100%; }
+        .sect8 .container-fluid .description .youtube-video::after {
+          padding-top: 56.25%;
+          display: block;
+          content: ''; }
+        .sect8 .container-fluid .description .youtube-video iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
+      .sect8 .container-fluid .description p span {
+        font-size: 1.25em;
+        font-weight: bold; }
+        .sect8 .container-fluid .description p span i {
+          font-size: 2em; }
+      .sect8 .container-fluid .description p strong {
+        text-decoration: underline;
+        font: size 1.25em;
+        padding: 0 5px; }
+    .sect8 .container-fluid .outro-text {
+      font-family: 'Noto Serif JP', serif; }
+      .sect8 .container-fluid .outro-text p {
+        line-height: 2em;
+        font-size: 1em; }
+        .sect8 .container-fluid .outro-text p span {
+          font-size: 1.25em;
+          font-weight: bold; }
+      .sect8 .container-fluid .outro-text h5 span {
+        background: #ffdfb4;
+        background: linear-gradient(135deg, #ffdfb4 0%, white 100%);
+        padding: 10px 20px;
+        box-shadow: 1px 3px 6px #414141; }
+      .sect8 .container-fluid .outro-text h3 {
+        background: #414141;
+        color: #ffffff;
+        padding: 10px 0; }
+      .sect8 .container-fluid .outro-text h5 {
+        font-size: 1.25em; }
+      .sect8 .container-fluid .outro-text .magazine {
+        display: flex;
+        align-items: center; }
 
 .sect1 {
   background: url(../img/prod/img006-e.jpg) no-repeat;
@@ -183,6 +249,8 @@ nav img {
       font-size: 1.5em;
       font-weight: bold;
       text-decoration: underline; }
+    .sect3 .information-area3 .cut-images {
+      object-fit: cover; }
 
 .sect4 h4 {
   margin: 5vh 0; }
@@ -504,6 +572,30 @@ nav img {
         .sect .container .part2 .text-center-inner .text-right {
           border-right: none;
           border-bottom: none; }
+
+  .sect8 .container {
+    padding-top: 8vh;
+    padding-bottom: 4vh; }
+    .sect8 .container .intro-text h5 {
+      font-size: 1em; }
+    .sect8 .container .intro-logo p {
+      font-size: 1em;
+      font-weight: bold; }
+    .sect8 .container .description p {
+      font-size: 0.9em; }
+    .sect8 .container .outro-text {
+      font-family: 'Noto Serif JP', serif; }
+      .sect8 .container .outro-text h3 {
+        font-size: 1.25em;
+        font-weight: bold; }
+      .sect8 .container .outro-text p {
+        line-height: 2em;
+        font-size: 1em; }
+        .sect8 .container .outro-text p span {
+          font-size: 1.25em;
+          font-weight: bold; }
+      .sect8 .container .outro-text h5 {
+        font-size: 1.25em; }
 
   .sect1 .information-center h3 {
     font-size: 1em; }
